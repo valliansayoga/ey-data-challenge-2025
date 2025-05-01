@@ -14,12 +14,16 @@ The 2025 challenge was a regression task: **predicting the Urban Heat Island (UH
 Here's how I created new features beyond the recommendation:  
 * Extracted RGB, infrared, water vapor indices from [Planetary Computer's API](https://planetarycomputer.microsoft.com/)
 * Created NDVI, NDBI, NDWI, and more
+![NDVI](images/ndvi_median.png)
+![NDWI](images/ndwi_median.png)
+![NDBI](images/ndbi_median.png)
 * Parsed the KML file to derive building counts, proximity metrics, and shape complexity
+![Building Footprints](images/building_footprints.png)
 * Modeled solar radiation data using [PVLIB](https://github.com/pvlib/pvlib-python)
 * Queried [OpenStreetMap API](https://www.openstreetmap.org/) to identify green elements like trees, shrubs, and grasslands
 
 # The results?
-Out of **2,076 participants**, I achieved:  
+Out of **2,076 participants**, as a solo team, I achieved:  
 🏅 Top 10 global external finalist  
 📈 Top 16 global model performance  
 🌏 Top 5 model performance in Southeast Asia  
@@ -32,4 +36,4 @@ This journey has been nothing short of transformational. I look forward to next 
 
 Thank you for reading!
 
-#DataScience #MachineLearning #UrbanHeatIsland #SatelliteImagery #OpenData #Python #Kaggle #PVLIB #OpenStreetMap #ClimateTech #EYDataChallenge #IndonesiaTech #AIForGood #LearningByDoing
+#DataScience #MachineLearning #UrbanHeatIsland #SatelliteImagery #OpenData #Python #EY #PVLIB #OpenStreetMap #ClimateTech #EYDataChallenge #AIForGood #LearningByDoing
