@@ -23,6 +23,7 @@ Here's how I created new features beyond the recommendation:
 * Queried [OpenStreetMap API](https://www.openstreetmap.org/) to identify green elements like trees, shrubs, and grasslands
 
 # The results?
+![Achievement](images/top_10_achievements.png)
 Out of **2,076 participants**, as a solo team, I achieved:  
 🏅 Top 10 global external finalist  
 📈 Top 16 global model performance  
